@@ -4,7 +4,7 @@ body {
 
 p {
   font-weight: bold;
-  font-family: 'Cardo', serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 h1 {
@@ -96,4 +96,23 @@ h3 {
 
 #portfolio-text {
   margin-bottom: 30px;
+}
+
+.card {
+  padding: 0;
+}
+
+.card-header {
+  padding: 0;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+  background-color: #a2eae2;
+}
+
+.price-tag {
+  font-size: 1.5rem;
+  color: #b5525c;
 }
