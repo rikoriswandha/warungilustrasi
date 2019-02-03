@@ -13,6 +13,11 @@ h1 {
   line-height: 1.25;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 h3 {
   font-weight: bold;
   color: #105e62;
@@ -59,6 +64,8 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
+/* Features Section */
+
 #features {
   background-color: #a2eae2;
   padding: 7% 15%;
@@ -80,4 +87,9 @@ h3 {
 
 .icon:hover {
   color: #105e62;
+}
+
+#portfolio {
+  text-align: center;
+  padding: 7% 15%;
 }
