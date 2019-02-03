@@ -1,3 +1,5 @@
+html {scroll-behavior:smooth}
+
 body {
   font-family: 'PT Sans', sans-serif;
 }
@@ -5,6 +7,10 @@ body {
 p {
   font-weight: bold;
   font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -115,4 +121,19 @@ h3 {
 .price-tag {
   font-size: 1.5rem;
   color: #b5525c;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 15% 1%;
+  color: #105e62;
+}
+
+.icon-footer{
+  color: #105e62;
+  margin: 7px 10px 15px;
+}
+
+.icon-footer:hover {
+  color: #a2eae2;
 }
